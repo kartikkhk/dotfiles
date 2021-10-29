@@ -1,4 +1,0 @@
-- coc-java
-- coc-eslint
-- coc-prettier
-- coc-tsserver
