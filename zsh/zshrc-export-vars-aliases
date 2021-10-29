@@ -1,3 +1,5 @@
+# make files in ~/export_vars folder like: export_dev_vars.sh ans export variables from that file
+
 function clean_up_export_vars {
   unset $(awk -F'[ =]+' '/^export/{print $2}' $(ls -d -1 ~/export_vars/**/*))
 }
